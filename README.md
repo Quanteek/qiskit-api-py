@@ -101,7 +101,7 @@ api.run_experiment(qasm, device, shots, name=None, timeout=60)
 ```shots = 1024 ```
 - **name**: Name of the experiment. This paramater is optional, by default the name will be 'Experiment \#YmdHMS'. Eg:
 ```name = 'bell state experiment'``
-- **timeout**: Time to wait for the result. The maximum timeout is 300. If the timeout is reached, you obtain the executionId to get the result with the getResultFromExecution method in the future. Eg:
+- **timeout**: Time to wait for the result. The maximum timeout is 300. If the timeout is reached, you obtain the executionId to get the result with the get_result_from_execution method in the future. Eg:
 ```timeout = 120``
 
 #### Running Jobs [QASM 2.0](https://github.com/IBM/qiskit-openqasm)
